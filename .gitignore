@@ -1,0 +1,17 @@
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+.auth/
+
+# Allure
+/allure-results/
+/allure-report/
+
+# Environment config (keep .env.example committed)
+.env
+.env.*
+!.env.example

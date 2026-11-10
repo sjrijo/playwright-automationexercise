@@ -1,0 +1,9 @@
+{
+  "valid": {
+    "name": "Playwright Tester",
+    "subject": "Automated test enquiry",
+    "message": "This message was sent by an automated Playwright test. Please ignore."
+  },
+  "successMessage": "Success! Your details have been submitted successfully.",
+  "uploadFile": "test-data/upload-sample.txt"
+}

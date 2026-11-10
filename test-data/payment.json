@@ -1,0 +1,11 @@
+{
+  "card": {
+    "nameOnCard": "Playwright Tester",
+    "number": "4111111111111111",
+    "cvc": "123",
+    "expiryMonth": "12",
+    "expiryYear": "2030"
+  },
+  "orderComment": "Please leave the parcel at the front desk.",
+  "successMessage": "Congratulations! Your order has been confirmed!"
+}

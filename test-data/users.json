@@ -1,0 +1,28 @@
+{
+  "newUserTemplate": {
+    "title": "Mr",
+    "birthDay": "15",
+    "birthMonth": "6",
+    "birthYear": "1992",
+    "newsletter": true,
+    "optin": true,
+    "firstName": "Playwright",
+    "lastName": "Tester",
+    "company": "QA Labs",
+    "address1": "221B Baker Street",
+    "address2": "Suite 4",
+    "country": "Canada",
+    "state": "Ontario",
+    "city": "Toronto",
+    "zipcode": "M5V 2T6",
+    "mobileNumber": "4165550142"
+  },
+  "invalidLogins": [
+    { "case": "unregistered email", "email": "nobody.registered.here@example.com", "password": "WrongPass123" },
+    { "case": "malformed-looking but valid email", "email": "x@y.zz", "password": "x" }
+  ],
+  "messages": {
+    "loginError": "Your email or password is incorrect!",
+    "emailExists": "Email Address already exist!"
+  }
+}

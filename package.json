@@ -1,0 +1,34 @@
+{
+  "name": "playwright-tests",
+  "version": "1.0.0",
+  "description": "Playwright UI + API test suite for automationexercise.com (POM, fixtures, Allure)",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:api": "playwright test --project=api",
+    "test:ui": "playwright test tests/ui",
+    "test:smoke": "playwright test --grep @smoke",
+    "test:headed": "playwright test --headed --workers=1",
+    "test:debug": "playwright test --debug",
+    "test:dev": "node scripts/with-env.js dev",
+    "test:qa": "node scripts/with-env.js qa",
+    "test:staging": "node scripts/with-env.js staging",
+    "report": "playwright show-report",
+    "allure:generate": "allure generate allure-results --clean -o allure-report",
+    "allure:open": "allure open allure-report",
+    "allure:serve": "allure serve allure-results",
+    "install:browsers": "playwright install --with-deps"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.65.0",
+    "@types/node": "^26.6.6",
+    "allure-commandline": "^2.46.1",
+    "allure-js-commons": "^3.14.0",
+    "allure-playwright": "^3.14.0",
+    "dotenv": "^18.0.10"
+  }
+}

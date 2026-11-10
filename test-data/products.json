@@ -1,0 +1,36 @@
+{
+  "totalProducts": 34,
+  "productDetails": [
+    { "id": 1, "name": "Blue Top", "price": "Rs. 500", "category": "Women > Tops", "brand": "Polo" },
+    { "id": 2, "name": "Men Tshirt", "price": "Rs. 400", "category": "Men > Tshirts", "brand": "H&M" },
+    { "id": 3, "name": "Sleeveless Dress", "price": "Rs. 1000", "category": "Women > Dress", "brand": "Madame" },
+    { "id": 33, "name": "Soft Stretch Jeans", "price": "Rs. 799", "category": "Men > Jeans", "brand": "Polo" }
+  ],
+  "searches": [
+    { "term": "Jeans", "expected": ["Soft Stretch Jeans", "Regular Fit Straight Jeans", "Grunt Blue Slim Fit Jeans"] },
+    { "term": "Blue Top", "expected": ["Blue Top"] },
+    { "term": "tshirt", "expected": ["Men Tshirt", "Pure Cotton Neon Green Tshirt"] }
+  ],
+  "noResultsTerm": "zzz-no-such-product-qq",
+  "categories": [
+    { "main": "Women", "sub": "Dress", "heading": "Women - Dress Products", "path": "/category_products/1" },
+    { "main": "Women", "sub": "Tops", "heading": "Women - Tops Products", "path": "/category_products/2" },
+    { "main": "Men", "sub": "Tshirts", "heading": "Men - Tshirts Products", "path": "/category_products/3" },
+    { "main": "Men", "sub": "Jeans", "heading": "Men - Jeans Products", "path": "/category_products/6" },
+    { "main": "Kids", "sub": "Dress", "heading": "Kids - Dress Products", "path": "/category_products/4" }
+  ],
+  "brands": [
+    { "name": "Polo", "count": 6 },
+    { "name": "H&M", "count": 5 },
+    { "name": "Madame", "count": 5 },
+    { "name": "Mast & Harbour", "count": 3 },
+    { "name": "Babyhug", "count": 4 },
+    { "name": "Allen Solly Junior", "count": 3 },
+    { "name": "Kookie Kids", "count": 3 },
+    { "name": "Biba", "count": 5 }
+  ],
+  "cart": {
+    "first": { "name": "Blue Top", "price": "Rs. 500" },
+    "second": { "name": "Men Tshirt", "price": "Rs. 400" }
+  }
+}
